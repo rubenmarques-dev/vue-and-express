@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        #app
+            block content
+            h1= title
+            cruel-world
+            p Welcome to #{title}
+
+    script(src="/js/bundle.js")
